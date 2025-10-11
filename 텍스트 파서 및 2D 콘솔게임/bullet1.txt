@@ -1,0 +1,6 @@
+	isVisible = 0
+	Design = ^
+	bx = 0
+	by = 0
+	damage = 1 
+	speed = 10

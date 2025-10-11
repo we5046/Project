@@ -1,0 +1,7 @@
+allow = 0
+MonsterCount = 3
+M0 = Monster0.txt
+M1 = Monster0.txt
+M2 = Monster0.txt
+x = 10, 30, 60
+y = 2, 8, 10

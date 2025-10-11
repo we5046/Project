@@ -1,0 +1,10 @@
+FirstLine = GAME@CLEAR
+Length1 = 10
+SecondLine = THANK@YOU@FOR@PLAYING
+Length2 = 21
+ThirdLine = DO@YOU@WANT@TO@RESTART?
+Length3 = 24
+FourthLine = PRESS@THE@KEY:@R
+Length4 = 16
+FifthLine = EXIT@KEY:@X
+Length5 = 11

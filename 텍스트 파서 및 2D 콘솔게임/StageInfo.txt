@@ -1,0 +1,7 @@
+Index = 6
+S0 = Stage1.txt
+S1 = Stage2.txt
+S2 = Stage3.txt
+S3 = Stage4.txt
+S4 = Stage5.txt
+S5 = Stage6.txt

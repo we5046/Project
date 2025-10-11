@@ -1,0 +1,4 @@
+FirstLine = SHOOTING@GAME
+FLength = 13
+SecondLine = PRESS@ANY@KEY
+SLength = 13

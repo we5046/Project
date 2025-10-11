@@ -1,0 +1,8 @@
+isVisible = 1
+Design = #
+HaveBullet = 30
+x = 40
+y = 20
+hp = 5
+attackStyle = 0
+speed = 10

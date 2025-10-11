@@ -1,0 +1,9 @@
+isVisible = 1
+Design = A
+HaveBullet = 20
+x = 0
+y = 0
+hp = 1
+movePhase = 1
+speed = 0
+score = 1

@@ -1,0 +1,10 @@
+FirstLine = GAME@OVER
+Length1 = 9
+SecondLine = YOU@FAILED@MISSON
+Length2 = 17
+ThirdLine = DO@YOU@WANT@TO@RESTART?
+Length3 = 24
+FourthLine = PRESS@THE@KEY:@R
+Length4 = 16
+FifthLine = EXIT@KEY:@X
+Length5 = 11
