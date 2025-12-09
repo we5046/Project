@@ -17,3 +17,29 @@ Session의 Recv data를 담을 공간입니다. Stream 형태의 데이터를 �
 Session part
 Session 관련 변수, 함수들이 포진되어있습니다. 
 현재는 OnRecvComplete에서 RingBuffer에 들어있는 패킷들을 조립하여 완전체 Packet으로 만듭니다.
+
+[ Client ]
+    |
+    | TCP Stream
+    v
+[ Network.cpp ]
+    |
+    | WSARecv / WSASend 등록
+    | IOCP Completion 통지
+    v
+[ WorkerThread (IOCP) ]
+    |
+    | recv completion / send completion
+    v
+[ Session ]
+    |
+    | RingBuffer (스트림 처리)
+    | Packet 조립
+    v
+[ Protocol ]
+    |
+    | Packet 검증 (Network Defense)
+    v
+[ GameServer ]
+    |
+    | 게임 규칙 처리 (채팅, 룸 등)
